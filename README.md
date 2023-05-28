@@ -31,7 +31,7 @@
 ## PROGRAM :
 
 ### CLIENT:
-
+```
 import socket
 s=socket.socket()
 s.bind(('localhost',9000))
@@ -54,6 +54,7 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement received from the server".encode())
 
+```
 
 ## OUTPUT:
 ### Client
