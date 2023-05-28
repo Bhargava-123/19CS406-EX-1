@@ -26,8 +26,9 @@
 6. Close the client socket.
 7. Stop.
 
-
-
+`<br>`
+`<br>`
+`<br>`
 ## PROGRAM :
 
 ### CLIENT:
