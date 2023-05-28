@@ -3,7 +3,7 @@
 ## DATE : 09-03-2023
 
 ## AIM :
-       To implement socket programming date and time display from client to server using TCP Sockets.
+ To implement socket programming date and time display from client to server using TCP Sockets.
 
 ## ALGORITHM :
 ## Server:
@@ -29,8 +29,8 @@
 
 
 ## PROGRAM :
-```
-CLIENT:
+
+### CLIENT:
 
 import socket
 s=socket.socket()
@@ -45,7 +45,7 @@ while True:
   except KeyError:
     c.send("Not Found".encode()) 
 
-SERVER:
+### SERVER:
 
 import socket
 s=socket.socket()
@@ -54,7 +54,6 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement received from the server".encode())
 
-```
 
 ## OUTPUT:
 ### Client
