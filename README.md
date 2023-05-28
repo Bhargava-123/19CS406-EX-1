@@ -7,7 +7,7 @@ AIM :    To implement socket programming date and time display from client to se
 
 ALGORITHM :
 
-Server:
+# Server:
 Create a server socket and bind it to port.
 Listen for new connection and when a connection arrives, accept it.
 Send server‟s date and time to the client.
@@ -17,7 +17,8 @@ Repeat steps 2-5 until the server is terminated.
 Close all streams.
 Close the server socket.
 Stop.
-Client:
+
+# Client:
 Create a client socket and connect it to the server‟s port number.
 Retrieve its own IP address using built-in function.
 Send its address to the server.
