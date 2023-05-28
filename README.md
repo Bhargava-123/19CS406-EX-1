@@ -1,6 +1,6 @@
 # 19CS406-EX-1 STUDY OF SOCKET PROGRAMMING WITH CLIENT-SERVER MODEL
 
-## DATE :
+## DATE : 09-03-2023
 
 ## AIM :
        To implement socket programming date and time display from client to server using TCP Sockets.
@@ -28,11 +28,8 @@
 
 
 
-PROGRAM :
+## PROGRAM :
 ```
-Developed by Janani.S
-Register number:212222230049
-
 CLIENT:
 
 import socket
@@ -60,6 +57,14 @@ s.send("acknowledgement received from the server".encode())
 ```
 
 ## OUTPUT:
+### Client
+![image](https://github.com/Bhargava-123/19CS406-EX-1/assets/85554376/6e28214e-dec2-4c2a-892c-d0434fa5b647)
+
+
+
+### Server
+![image](https://github.com/Bhargava-123/19CS406-EX-1/assets/85554376/820278f6-88aa-4734-8209-16812945a819)
+
 
 
 
